@@ -1,0 +1,20 @@
+# Ignore virtual environments
+venv/
+agml_env/
+
+# Ignore datasets and model weights
+*.pth
+*.zip
+*.json
+
+# Ignore temporary files and folders
+__pycache__/
+*.ipynb_checkpoints/
+plant-disease-attention.zip
+kaggle.json
+
+# Ignore project-specific folders
+PlantDiseaseClassification/
+dataset_split/
+anaconda_projects/
+utils/
